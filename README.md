@@ -19,5 +19,7 @@ Configuration:
   * Database: Microsoft SQL Server 2014
   * Authentification: Windows Authentification
 
+Example of report file is attached to repository.
+
 If you need to use Active Directory Authentification or something else, please modify **[sqlcmd](https://docs.microsoft.com/en-us/sql/tools/sqlcmd-utility?view=sql-server-2017)** utility on line 22.
   
