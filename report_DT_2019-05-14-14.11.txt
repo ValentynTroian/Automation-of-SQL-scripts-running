@@ -1,0 +1,51 @@
+  
+D:\python_projects\Python and SQL Server Scripts\script_1.sql  
+OBJECT_NAME            TEST_NAME                       COUNT RESULT
+---------------------- ------------------------------- ----- ------
+FDS_Staging.dbo.Orders Count Verification (Smoke Test) 21400 PASS  
+
+
+Clock Time (ms.): total        16  avg   16.00 (62.50 xacts per sec.)
+  
+D:\python_projects\Python and SQL Server Scripts\script_2.sql  
+OBJECT_NAME          TEST_NAME                       COUNT RESULT
+-------------------- ------------------------------- ----- ------
+FDS_ODS.dbo.Products Count Verification (Smoke Test) 123   PASS  
+FDS_ODS.dbo.Products PK Verification                 10    FAIL  
+
+
+Clock Time (ms.): total        16  avg   16.00 (62.50 xacts per sec.)
+  
+D:\python_projects\Python and SQL Server Scripts\script_with_error.sql  
+Msg 156, Level 15, State 1, Server XEPUALVIW0027, Line 1
+Incorrect syntax near the keyword 'WHERE'.
+
+Clock Time (ms.): total         1  avg   1.00 (1000.00 xacts per sec.)
+  
+D:\python_projects\Python and SQL Server Scripts\unvalid_script_1.sql  
+Msg 156, Level 15, State 1, Server XEPUALVIW0027, Line 1
+Incorrect syntax near the keyword 'WHERE'.
+
+Clock Time (ms.): total         1  avg   1.00 (1000.00 xacts per sec.)
+  
+D:\python_projects\Python and SQL Server Scripts\unvalid_script_2.sql  
+Msg 208, Level 16, State 1, Server XEPUALVIW0027, Line 1
+Invalid object name 'dbo.UnknownTable'.
+
+Clock Time (ms.): total        15  avg   15.00 (66.67 xacts per sec.)
+  
+D:\python_projects\Python and SQL Server Scripts\Scripts\Customers_from_France.sql  
+Msg 208, Level 16, State 1, Server XEPUALVIW0027, Line 1
+Invalid object name 'Sales.Customers'.
+
+Clock Time (ms.): total       109  avg   109.00 (9.17 xacts per sec.)
+  
+D:\python_projects\Python and SQL Server Scripts\Scripts\Products_with_price_over_50.sql  
+Msg 208, Level 16, State 1, Server XEPUALVIW0027, Line 1
+Invalid object name 'Production.Products'.
+
+Clock Time (ms.): total        15  avg   15.00 (66.67 xacts per sec.)
+-------------------------------------------------------------------------- 
+All scripts = 7 
+Errors during execution = 5 
+Failed tests = 1  
