@@ -3,7 +3,7 @@
 Implemented features:
   * Running all SQL scripts (tests) in current folder
   * Script running progress information
-  * Creating report txt file with resulted counts of 1) passed tests 2) failed tests 3) errors during execution
+  * Creating report txt file with resulted counts of 1) all scripts 2) failed tests 3) errors during execution
   * Automatic opening of report file
 
 How to use:
