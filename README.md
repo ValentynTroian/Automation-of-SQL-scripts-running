@@ -11,6 +11,10 @@ How to use:
   * Enter your SERVER_NAME instead of XEPUALVIW0027 on line 22
   * Run bat file (just click on it)
 
+Version difference:
+  * Run_SQL_with_traverse.bat - searching SQL files in current folder and all subfolders
+  * Run_SQL_without_traverse.bat - searching SQL files only in current folder
+
 Configuration:
   * Database: Microsoft SQL Server 2014
   * Authentification: Windows Authentification
